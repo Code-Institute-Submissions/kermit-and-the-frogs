@@ -29,6 +29,16 @@ Here are some links to the wireframes that I drew up during the design process:
 ## Deployment
 
 ## Credits
+
+#### Media
+
 Pixabay
 Wikipedia
+
+#### Characters
+
 Disney
+
+#### Code
+
+https://css-tricks.com/

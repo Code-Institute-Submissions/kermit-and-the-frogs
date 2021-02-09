@@ -1,13 +1,10 @@
 /* Background Image */
-body, html {
-    height:100%;
-}
-
-.hero {
-    background: url("../images/crowd.png") no-repeat center;
-    min-width:350px;
-    min-height:700px;
-    zoom: 160%;
+html {
+    background: url("../images/crowd.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 
