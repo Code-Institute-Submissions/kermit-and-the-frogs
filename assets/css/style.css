@@ -101,9 +101,13 @@ body {
     text-decoration:underline;
 }
 
+.newsletter-mobile {
+    display:none;
+}
+
 /* Media Queries */
 
-@media screen and (max-width:765px) {
+@media screen and (max-width:781px) {
     .newsletter-homepage-desktop {
         display:none;
     }
@@ -129,8 +133,8 @@ body {
     }
 }
 
-@media screen and (min-width:765px) {
-    .newsletter-mobile {
+@media screen and (width:781px) {
+    .newsletter-homepage-desktop {
         display:none;
     }
 }
