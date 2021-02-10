@@ -32,8 +32,11 @@ Additionally, I talked to both types of users for the site and here's what I fou
     * As the creator of the site, I want users to want to return to the site to get updates on the band and when they are playing next.
 
 Here are some links to the wireframes that I drew up during the design process:
+
 [Kermit and the Frogs - Desktop](kermit_and_the_frogs_desktop.pdf) 
-[Kermit and the Frogs - Mobile]()
+
+[Kermit and the Frogs - Mobile](kermit_and_the_frogs_mobile.pdf)
+
 [Kermit and the Frogs - Tablet]()
 
 ## Features
