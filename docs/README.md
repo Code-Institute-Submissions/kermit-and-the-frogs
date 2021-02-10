@@ -37,7 +37,7 @@ Here are some links to the wireframes that I drew up during the design process:
 
 [Kermit and the Frogs - Mobile](kermit_and_the_frogs_mobile.pdf)
 
-[Kermit and the Frogs - Tablet]()
+[Kermit and the Frogs - Tablet](kermit_and_the_frogs_tablet.pdf)
 
 ## Features
 
