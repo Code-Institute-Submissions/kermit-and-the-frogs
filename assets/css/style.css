@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
 
 /* Background Image */
+
 body {
     background: url("../images/crowd.png") no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -10,6 +11,7 @@ body {
 }
 
 /* Homepage Header */
+
 .page-title, .social-links-home-page, .newsletter-homepage-desktop {
     text-align:center;
     margin-top:20px;
@@ -29,7 +31,6 @@ body {
 }
 
 #newsletter-callout-desktop {
-    margin-top:10px;
     font-size:24px;
     font-family: "Pangolin", sans-serif;
 }
@@ -81,6 +82,27 @@ body {
     color:#ff6600;
 }
 
+/* Nav Items */
+
+.nav-bar {
+    position: absolute;
+    bottom:80px;
+    text-align:center;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color:white;
+    font-family: "Pangolin", sans-serif;
+    font-size:24px;
+}
+
+.nav-item a:hover {
+    text-decoration:underline;
+}
+
+/* Media Queries */
+
 @media screen and (max-width:765px) {
     .newsletter-homepage-desktop {
         display:none;
@@ -93,5 +115,22 @@ body {
     .social-link {
         margin-right:10px;
         margin-top:5px;
+    }
+
+    .nav-item {
+        margin-top:20px;
+        text-shadow: 2px 2px black;
+    }
+
+    .nav-bar{
+        position: absolute;
+        bottom:-40px;
+        text-align:center;
+    }
+}
+
+@media screen and (min-width:765px) {
+    .newsletter-mobile {
+        display:none;
     }
 }
