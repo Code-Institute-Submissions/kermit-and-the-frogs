@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
 
 /* Background Image */
 body {
@@ -10,15 +10,88 @@ body {
 }
 
 /* Homepage Header */
-.page-title, .social-links-home-page, .newsletter-homepage {
-    color:white;
+.page-title, .social-links-home-page, .newsletter-homepage-desktop {
     text-align:center;
     margin-top:20px;
 }
 
 .page-title h1 {
-    font-family: "Satisfy", sans-serif;
-    font-weight: 600;
-    font-size: 54px;
+    font-family: "Pangolin", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color:white;
 }
 
+.social-link {
+    margin-right:30px;
+    margin-top:10px;
+    font-size:28px;
+}
+
+#newsletter-callout-desktop {
+    margin-top:10px;
+    font-size:24px;
+    font-family: "Pangolin", sans-serif;
+}
+
+.newsletter-icon-desktop {
+    margin-top:10px;
+    font-size:28px;
+}
+
+.newsletter-icon-desktop:hover {
+    color:#ff6600;
+}
+
+.newsletter-homepage-desktop a {
+    color:white;
+    text-decoration: none;
+}
+
+.social-links-home-page a {
+    color:white;
+    text-decoration: none;
+}
+
+.newsletter-icon-desktop {
+    margin-left:20px;
+}
+
+.facebook:hover {
+    color:#3333ff;
+}
+
+.twitter:hover {
+    color:#3399ff;
+}
+
+.instagram:hover {
+    color:#ff66ff;
+}
+
+.spotify:hover {
+    color:#00cc66;
+}
+
+.youtube:hover {
+    color:red;
+}
+
+.soundcloud:hover {
+    color:#ff6600;
+}
+
+@media screen and (max-width:765px) {
+    .newsletter-homepage-desktop {
+        display:none;
+    }
+    
+    .page-title h1 {
+        font-size:36px;
+    }
+
+    .social-link {
+        margin-right:10px;
+        margin-top:5px;
+    }
+}
