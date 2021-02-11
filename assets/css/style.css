@@ -153,3 +153,9 @@ body {
         margin-left:0;
     }
 }
+
+@media only screen and (max-width:575px) {
+    .social-links-home-page {
+        margin-left: 30px;
+    }
+}
