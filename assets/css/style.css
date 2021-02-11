@@ -152,6 +152,12 @@ body {
     .social-links-home-page {
         margin-left:0;
     }
+
+    .nav-bar {
+        position: absolute;
+        bottom:80px;
+        text-align:center;
+    }
 }
 
 @media only screen and (max-width:575px) {
