@@ -60,6 +60,6 @@ Disney
 
 #### Code
 
-https://css-tricks.com/
-https://www.w3schools.com/
-https://stackoverflow.com/
+https://css-tricks.com/ - Static Background Image
+https://www.w3schools.com/ - Text Shadow
+https://stackoverflow.com/ - Fix Bug for Fixed Background iOS
