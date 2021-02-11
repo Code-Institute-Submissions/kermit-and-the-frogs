@@ -107,9 +107,13 @@ body {
 
 /* Media Queries */
 
-@media screen and (max-width:781px) {
+@media only screen and (max-width:768px) {
     .newsletter-homepage-desktop {
         display:none;
+    }
+
+    .newsletter-mobile {
+        display:block;
     }
     
     .page-title h1 {
@@ -133,8 +137,12 @@ body {
     }
 }
 
-@media screen and (width:781px) {
+@media only screen and (min-width:768px) and (max-width:778px) {
     .newsletter-homepage-desktop {
+        display:block;
+    }
+
+    .newsletter-mobile {
         display:none;
     }
 }
