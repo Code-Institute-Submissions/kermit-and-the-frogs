@@ -202,6 +202,16 @@
     }
 }
 
+@media only screen and (width:768px) {
+    .band-bio-title {
+        bottom:-80px;
+    }
+
+    .band-bio {
+        bottom:-475px;
+    }
+}
+
 @media only screen and (min-width:768px) and (max-width:778px) {
     .newsletter-homepage-desktop {
         display:block;
