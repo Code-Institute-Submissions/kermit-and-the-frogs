@@ -38,6 +38,10 @@
     font-family: "Pangolin", sans-serif;
 }
 
+#newsletter-callout-desktop:hover {
+    text-decoration: underline;
+}
+
 .newsletter-icon-desktop {
     margin-top:10px;
     font-size:28px;
@@ -122,6 +126,35 @@
     font-weight: 400;
     font-size: 42px;
     color:white;
+    text-shadow: 2px 2px black;
+}
+
+.band-member-name {
+    font-family: "Pangolin", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color:white;
+    text-shadow: 2px 2px black;
+}
+
+.band-bio {
+    position:absolute;
+    bottom:-475px;
+    text-align:center;
+}
+
+.bio {
+    font-family: "Pangolin", sans-serif;
+    font-weight: 400;
+    font-size:20px;
+    color:white;
+    text-shadow: 2px 2px black;
+    margin-top:10px;
+}
+
+.headshot {
+    width:192px;
+    height:255px;
 }
 
 /* Media Queries */
@@ -161,6 +194,11 @@
         position: absolute;
         bottom:-40px;
         text-align:center;
+    }
+
+    .band-bio {
+        position:absolute;
+        bottom:-1325px;
     }
 }
 
