@@ -228,6 +228,10 @@ iframe {
     iframe {
         width:80%;
     }
+
+    .music-section {
+        top:1025px;
+    }
 }    
 
 @media only screen and (min-width:768px) and (max-width:900px) {
