@@ -55,6 +55,32 @@ Here are some links to the wireframes that I drew up during the design process:
 * HTML5
 * CSS3
 
+**Frameworks, Libraries & Programs Used**
+
+1. [Bootstrap 4.3.1](https://getbootstrap.com/):
+    * Bootstrap was used to assist with the responsiveness and styling of the website.
+
+2. [Hover.css](https://ianlunn.github.io/Hover/):
+    * Hover.css was used on the menu word items in the header and navigation bar to underline or change the color of the item while being hovered over.
+
+3. [Google Fonts](https://fonts.google.com/):
+    * Google fonts were used to import the 'Pangolin' font into the style.css file which is used on both pages in the project.
+
+4. [Font Awesome](https://fontawesome.com/):
+    * Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+
+5. [YouTube](https://www.youtube.com/):
+    * YouTube is used as the source of the embedded music video in the project.
+
+6. [Git](https://git-scm.com/):
+    * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+
+7. [GitHub](https://github.com/):
+    * GitHub is used to store the projects code after being pushed from Git.
+
+8. [Balsamiq](https://balsamiq.com/):
+    * Balsamiq was used to create the wireframes during the design process.            
+
 ## Testing
 
 ## Deployment
