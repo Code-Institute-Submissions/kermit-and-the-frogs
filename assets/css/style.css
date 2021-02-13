@@ -121,21 +121,20 @@
     text-align:center;
 }
 
-#meet-the-band {
+#meet-the-band, .band-member-name {
     text-align:center;
     font-family: "Pangolin", sans-serif;
     font-weight: 400;
-    font-size: 42px;
     color:white;
     text-shadow: 2px 2px black;
 }
 
+#meet-the-band {
+    font-size:42px;
+}
+
 .band-member-name {
-    font-family: "Pangolin", sans-serif;
-    font-weight: 400;
     font-size: 32px;
-    color:white;
-    text-shadow: 2px 2px black;
 }
 
 .band-bio {
@@ -158,6 +157,32 @@
 .headshot {
     width:192px;
     height:255px;
+}
+
+/* Music */
+
+#music {
+    text-align:center;
+    font-family: "Pangolin", sans-serif;
+    font-weight: 400;
+    font-size: 42px;
+    color:white;
+    text-shadow: 2px 2px black;
+}
+
+.music-section {
+    position: relative;
+    top:875px;
+    text-align:center;
+}
+
+.music-content {
+    margin-top:25px;
+}
+
+iframe {
+    width:560px;
+    height:315px;
 }
 
 /* Media Queries */
@@ -198,6 +223,10 @@
     .band-bio-section {
         top:825px;
     }
+
+    iframe {
+        width:80%;
+    }
 }    
 
 @media only screen and (min-width:768px) and (max-width:900px) {
@@ -234,19 +263,31 @@
      .band-bio-section {
         position: relative;
         top:1600px;
-     }    
+     }
+     
+     .music-section {
+         top: 1750px;
+     }
 }
 
 @media screen and (min-height:1025px) and (max-height:1400px) {
      .band-bio-section {
         position: relative;
         top:1350px;
-     }    
+     }
+
+     .music-section {
+         top: 1500px;
+     }
 }
 
 @media screen and (min-height:850px) and (max-height:1024px) {
      .band-bio-section {
         position: relative;
         top:900px;
-     }    
+     }
+     
+     .music-section {
+         top: 1000px;
+     }
 }
