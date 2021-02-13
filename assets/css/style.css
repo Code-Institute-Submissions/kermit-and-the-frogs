@@ -115,13 +115,14 @@
 
 /* Meet the Band */
 
-.band-bio-title {
-    position: absolute;
-    bottom:-80px;
+ .band-bio-title {
+    position: relative;
+    top:725px;
     text-align:center;
 }
 
 #meet-the-band {
+    text-align:center;
     font-family: "Pangolin", sans-serif;
     font-weight: 400;
     font-size: 42px;
@@ -139,7 +140,7 @@
 
 .band-bio {
     position:relative;
-    bottom:-750px;
+    top:20px;
     text-align:center;
 }
 
@@ -151,6 +152,7 @@
     text-shadow: 2px 2px black;
     margin-top:10px;
     margin-right:30px;
+    text-align:center;
 }
 
 .headshot {
@@ -173,10 +175,6 @@
         font-size:36px;
     }
 
-    .band-bio-title {
-        bottom:-200px;
-    }
-
     .social-link {
         text-shadow: 2px 2px black;
         margin-right:20px;
@@ -197,14 +195,10 @@
         text-align:center;
     }
 
-    .band-bio {
-        bottom:-800px;
-    }
-
     .band-bio-title {
-        margin-top:25px;
+        top:825px;
     }
-}
+}    
 
 @media only screen and (min-width:768px) and (max-width:900px) {
     .newsletter-homepage-desktop {
@@ -225,13 +219,8 @@
         text-align:center;
     }
 
-    .band-bio {
-        bottom:-680px;
-    }
-
     .band-bio-title {
-        bottom:-80px;
-        margin-top:25px;
+        top:750px;
     }
 }    
 
@@ -239,4 +228,18 @@
     .social-links-home-page {
         margin-left: 30px;
     }
+}
+
+@media screen and (min-height:1025px) {
+     .band-bio-title {
+        position: relative;
+        top:1300px;
+     }    
+}
+
+@media screen and (min-height:850px) and (max-height:1024px) {
+     .band-bio-title {
+        position: relative;
+        top:900px;
+     }    
 }
