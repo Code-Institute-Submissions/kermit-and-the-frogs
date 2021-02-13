@@ -230,10 +230,17 @@
     }
 }
 
-@media screen and (min-height:1025px) {
+@media screen and (min-height:1400px) {
      .band-bio-title {
         position: relative;
-        top:1300px;
+        top:1600px;
+     }    
+}
+
+@media screen and (min-height:1025px) and (max-height:1400px) {
+     .band-bio-title {
+        position: relative;
+        top:1350px;
      }    
 }
 
