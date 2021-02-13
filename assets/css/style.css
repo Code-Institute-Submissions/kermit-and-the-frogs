@@ -115,7 +115,7 @@
 
 /* Meet the Band */
 
- .band-bio-title {
+ .band-bio-section {
     position: relative;
     top:725px;
     text-align:center;
@@ -195,7 +195,7 @@
         text-align:center;
     }
 
-    .band-bio-title {
+    .band-bio-section {
         top:825px;
     }
 }    
@@ -219,7 +219,7 @@
         text-align:center;
     }
 
-    .band-bio-title {
+    .band-bio-section {
         top:750px;
     }
 }    
@@ -231,21 +231,21 @@
 }
 
 @media screen and (min-height:1400px) {
-     .band-bio-title {
+     .band-bio-section {
         position: relative;
         top:1600px;
      }    
 }
 
 @media screen and (min-height:1025px) and (max-height:1400px) {
-     .band-bio-title {
+     .band-bio-section {
         position: relative;
         top:1350px;
      }    
 }
 
 @media screen and (min-height:850px) and (max-height:1024px) {
-     .band-bio-title {
+     .band-bio-section {
         position: relative;
         top:900px;
      }    
