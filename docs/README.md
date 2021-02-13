@@ -14,6 +14,11 @@ To get some ideas of concepts, I referenced one of my favorite artist's site, Jo
 
 I appreciate the site's uniform design, fixed background image, one page holds everything design. So I included those features in the site.
 
+Design Features Include:
+    
+* Pangolin font, which I find to mimic chalk on a chalkboard. It's clear, and appeals to a younger auidence.
+* Fixed striking hero image which provides contrast and visual appeal.
+
 Additionally, I talked to both types of users for the site and here's what I found:
 
 * User Stories - Fan of the Band
@@ -41,7 +46,14 @@ Here are some links to the wireframes that I drew up during the design process:
 
 ## Features
 
+**Languages Used**
+* Responsive on all device sizes.
+* Interactive elements.
+
 ## Technologies Used
+
+* HTML5
+* CSS3
 
 ## Testing
 
