@@ -138,8 +138,8 @@
 }
 
 .band-bio {
-    position:absolute;
-    bottom:-475px;
+    position:relative;
+    bottom:-750px;
     text-align:center;
 }
 
@@ -150,6 +150,7 @@
     color:white;
     text-shadow: 2px 2px black;
     margin-top:10px;
+    margin-right:30px;
 }
 
 .headshot {
@@ -197,22 +198,15 @@
     }
 
     .band-bio {
-        position:absolute;
-        bottom:-1325px;
+        bottom:-800px;
     }
-}
 
-@media only screen and (width:768px) {
     .band-bio-title {
-        bottom:-80px;
-    }
-
-    .band-bio {
-        bottom:-475px;
+        margin-top:25px;
     }
 }
 
-@media only screen and (min-width:768px) and (max-width:778px) {
+@media only screen and (min-width:768px) and (max-width:900px) {
     .newsletter-homepage-desktop {
         display:block;
     }
@@ -230,7 +224,16 @@
         bottom:80px;
         text-align:center;
     }
-}
+
+    .band-bio {
+        bottom:-680px;
+    }
+
+    .band-bio-title {
+        bottom:-80px;
+        margin-top:25px;
+    }
+}    
 
 @media only screen and (max-width:575px) {
     .social-links-home-page {
