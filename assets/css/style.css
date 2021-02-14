@@ -139,6 +139,7 @@ header {
 
 .band-member-name {
     font-size: 32px;
+    margin-top: 25px;
 }
 
 .band-bio {
@@ -234,7 +235,7 @@ iframe {
     }
 
     .music-section {
-        top:1025px;
+        top:975px;
     }
 }    
 
