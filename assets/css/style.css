@@ -13,11 +13,21 @@
     background-size:cover;
 }
 
-/* Homepage Header */
+/* Universal Site Settings */
 
 header {
     display:block;
 }
+
+.text-white {
+    color:white;
+}
+
+.pangolin {
+    font-family: "Pangolin", sans-serif;
+}
+
+/* Homepage Header */
 
 .page-title, .social-links-home-page, .newsletter-homepage-desktop {
     text-align:center;
@@ -25,10 +35,8 @@ header {
 }
 
 .page-title h1 {
-    font-family: "Pangolin", sans-serif;
     font-weight: 400;
     font-size: 48px;
-    color:white;
 }
 
 .social-link {
@@ -39,7 +47,6 @@ header {
 
 #newsletter-callout-desktop {
     font-size:24px;
-    font-family: "Pangolin", sans-serif;
 }
 
 #newsletter-callout-desktop:hover {
@@ -55,13 +62,7 @@ header {
     color:#ff6600;
 }
 
-.newsletter-homepage-desktop a {
-    color:white;
-    text-decoration: none;
-}
-
-.social-links-home-page a {
-    color:white;
+.newsletter-homepage-desktop a, .social-links-home-page a {
     text-decoration: none;
 }
 
@@ -103,8 +104,6 @@ header {
 
 .nav-item a {
     text-decoration: none;
-    color:white;
-    font-family: "Pangolin", sans-serif;
     font-size:24px;
     text-shadow: 2px 2px black;
 }
@@ -127,9 +126,7 @@ header {
 
 #meet-the-band, .band-member-name {
     text-align:center;
-    font-family: "Pangolin", sans-serif;
     font-weight: 400;
-    color:white;
     text-shadow: 2px 2px black;
 }
 
@@ -149,14 +146,12 @@ header {
 }
 
 .bio {
-    font-family: "Pangolin", sans-serif;
     font-weight: 400;
     font-size:20px;
-    color:white;
-    text-shadow: 2px 2px black;
     margin-top:10px;
     margin-right:30px;
     text-align:center;
+    text-shadow: 2px 2px black;
 }
 
 .headshot {
@@ -168,10 +163,8 @@ header {
 
 #music {
     text-align:center;
-    font-family: "Pangolin", sans-serif;
     font-weight: 400;
     font-size: 42px;
-    color:white;
     text-shadow: 2px 2px black;
 }
 
@@ -182,7 +175,7 @@ header {
 }
 
 .music-content {
-    margin-top:25px;
+    margin-top:50px;
 }
 
 iframe {
@@ -201,27 +194,21 @@ iframe {
 
 #shows {
     text-align:center;
-    font-family: "Pangolin", sans-serif;
     font-weight: 400;
     font-size: 42px;
-    color:white;
     text-shadow: 2px 2px black;
 }
 
 /* Signup Page */
 
 .newsletter-title {
-    font-family: "Pangolin", sans-serif;
     font-weight: 400;
     font-size: 48px;
-    color:white;
 }
 
 .home-desktop a {
-    color:white;
     text-decoration: none;
     font-size:24px;
-    font-family: "Pangolin", sans-serif;
 }
 
 .home-desktop, .newsletter-title {
