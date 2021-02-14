@@ -15,6 +15,10 @@
 
 /* Homepage Header */
 
+header {
+    display:block;
+}
+
 .page-title, .social-links-home-page, .newsletter-homepage-desktop {
     text-align:center;
     margin-top:20px;
