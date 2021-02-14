@@ -191,6 +191,23 @@ iframe {
     border:0;
 }
 
+/* Shows */
+
+.shows-section {
+    position:relative;
+    top:1025px;
+    text-align:center;
+}
+
+#shows {
+    text-align:center;
+    font-family: "Pangolin", sans-serif;
+    font-weight: 400;
+    font-size: 42px;
+    color:white;
+    text-shadow: 2px 2px black;
+}
+
 /* Media Queries */
 
 @media only screen and (max-width:768px) {
@@ -237,6 +254,10 @@ iframe {
     .music-section {
         top:975px;
     }
+
+    .shows-section {
+        top:1125px;
+    }
 }    
 
 @media only screen and (min-width:768px) and (max-width:900px) {
@@ -278,6 +299,10 @@ iframe {
      .music-section {
          top: 1750px;
      }
+
+     .shows-section {
+         top:1900px;
+     }
 }
 
 @media screen and (min-height:1025px) and (max-height:1400px) {
@@ -289,6 +314,10 @@ iframe {
      .music-section {
          top: 1500px;
      }
+
+     .shows-section {
+         top:1650px;
+     }
 }
 
 @media screen and (min-height:850px) and (max-height:1024px) {
@@ -299,5 +328,9 @@ iframe {
      
      .music-section {
          top: 1000px;
+     }
+
+     .shows-section {
+         top:1100px;
      }
 }
