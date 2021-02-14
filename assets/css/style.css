@@ -53,18 +53,11 @@
 .newsletter-icon-desktop {
     margin-top:10px;
     font-size:28px;
-}
-
-.newsletter-icon-desktop:hover {
-    color:#ff6600;
+    margin-left:20px;
 }
 
 .newsletter-homepage-desktop a, .social-links-home-page a {
     text-decoration: none;
-}
-
-.newsletter-icon-desktop {
-    margin-left:20px;
 }
 
 .facebook:hover {
@@ -197,12 +190,8 @@ iframe {
 }
 
 .divider {
-    width:50px;
-    height:2px;
-    background-color: white;
-    border: 2px solid black;
-    margin-top:60px;
-    
+    text-shadow: 2px 2px black;
+    margin-top:50px;
 }
 
 .show-location {
@@ -225,7 +214,7 @@ iframe {
 
 /* Signup Page */
 
-.newsletter-title {
+.newsletter-title h1 {
     font-weight: 400;
     font-size: 48px;
 }
@@ -243,7 +232,31 @@ iframe {
     text-align:center;
 }
 
-/* Footer */
+.home-desktop a:hover {
+    text-decoration: underline;
+}
+
+.home-icon-desktop {
+    margin-top:10px;
+    font-size:28px;
+    margin-left:20px;
+}
+
+.form-section {
+    text-align:center;
+    margin-top:100px;
+}
+
+label {
+    font-size:24px;
+    text-shadow: 2px 2px black;
+}
+
+.home-mobile {
+    display:none;
+}
+
+/* Footer - Main */
 
 .footer-section {
     position:relative;
@@ -253,6 +266,14 @@ iframe {
 
 .footer-text {
     text-shadow: 2px 2px black;
+}
+
+/* Footer - Sign Up */
+
+.footer-section-signup {
+    position:absolute;
+    text-align:center;
+    bottom:0px;
 }
 
 /* Media Queries */
@@ -320,6 +341,18 @@ iframe {
 
     .footer-section {
         top:1275px;
+    }
+
+    .newsletter-title h1 {
+        font-size:36px;
+        text-align:center;
+    }
+
+    .home-mobile {
+        display:block;
+        text-shadow: 2px 2px black;
+        font-size:24px;
+        text-align:center;
     }
 }    
 

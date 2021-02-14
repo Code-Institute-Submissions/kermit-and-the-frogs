@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
     <title>Kermit and the Frogs - Newsletter</title>
 </head>
@@ -14,7 +14,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-4 home-desktop">
-                    <a class="text-white pangolin" href="index.html">Home <i class="fas fa-home"></i></a>
+                    <a class="text-white pangolin" href="index.html">Home <i class="fas fa-home home-icon-desktop"></i></a>
                 </div>
                 <div class="col-md-8 newsletter-title text-white pangolin">
                     <h1>Sign Up for Our Newsletter!</h1>
@@ -22,5 +22,37 @@
             </div>
         </div>
     </header>
+    <section>
+        <div class="container-fluid form-section">
+            <div class="row">
+                <div class="col">
+                    <form method="POST" action="https://formdump.codeinstitute.net/">
+                        <label for="name" class="text-white pangolin">Name:</label>
+                        <br>
+                        <input type="text" id="name" name="name" placeholder="Your Name Here" required>
+                        <br>
+                        <label for="email" class="text-white pangolin">Email:</label>
+                        <br>
+                        <input type="email" id="email" name="email" placeholder="Your Email Here" required>
+                        <br>
+                        <input type="checkbox" id="merchandise" value="mmerchandise" name="merchandise">
+                        <label class="text-white pangolin" for="merchandise">I would like to receive more information about new merchandise.</label>
+                        <br>
+                        <button type="submit" class="btn btn-success">Sign Up!</button>
+                    </form>
+                    <a class="home-mobile text-white pangolin" href="index.html">Home <i class="fas fa-home"></i></a> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container-fluid footer-section-signup">
+            <div class="row">
+                <div class="col">
+                    <h5 class="text-white pangolin footer-text">Copyright 2021 - Sesame Records</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
