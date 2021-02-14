@@ -199,6 +199,33 @@ iframe {
     text-shadow: 2px 2px black;
 }
 
+.divider {
+    width:50px;
+    height:2px;
+    background-color: white;
+    border: 2px solid black;
+    margin-top:60px;
+    
+}
+
+.show-location {
+    padding-left:100px;
+    margin-top:50px;
+    text-shadow: 2px 2px black;
+}
+
+.show-time {
+    padding-right:100px;
+    margin-top:50px;
+    text-shadow: 2px 2px black;
+}
+
+.disclaimer {
+    font-size:20px;
+    margin-top:20px;
+    text-shadow: 2px 2px black;
+}
+
 /* Signup Page */
 
 .newsletter-title {
@@ -217,6 +244,18 @@ iframe {
 
 .home-desktop {
     text-align:center;
+}
+
+/* Footer */
+
+.footer-section {
+    position:relative;
+    top:1175px;
+    text-align:center;
+}
+
+.footer-text {
+    text-shadow: 2px 2px black;
 }
 
 /* Media Queries */
@@ -273,6 +312,18 @@ iframe {
     .home-desktop {
         display:none;
     }
+
+    .show-time {
+        padding-right:0px;
+    }
+
+    .show-location {
+        padding-left:0px;
+    }
+
+    .footer-section {
+        top:1275px;
+    }
 }    
 
 @media only screen and (min-width:768px) and (max-width:900px) {
@@ -316,7 +367,11 @@ iframe {
      }
 
      .shows-section {
-         top:1900px;
+         top:1950px;
+     }
+
+     .footer-section {
+         top:2100px;
      }
 }
 
@@ -332,6 +387,10 @@ iframe {
 
      .shows-section {
          top:1650px;
+     }
+
+     .footer-section {
+         top:1800px;
      }
 }
 
