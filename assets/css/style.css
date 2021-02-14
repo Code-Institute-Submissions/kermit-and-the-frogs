@@ -208,6 +208,34 @@ iframe {
     text-shadow: 2px 2px black;
 }
 
+/* Signup Page */
+
+header {
+    display:block
+}
+
+.newsletter-title {
+    font-family: "Pangolin", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color:white;
+}
+
+.home-desktop a {
+    color:white;
+    text-decoration: none;
+    font-size:24px;
+    font-family: "Pangolin", sans-serif;
+}
+
+.home-desktop, .newsletter-title {
+    margin-top:20px;
+}
+
+.home-desktop {
+    text-align:center;
+}
+
 /* Media Queries */
 
 @media only screen and (max-width:768px) {
@@ -257,6 +285,10 @@ iframe {
 
     .shows-section {
         top:1125px;
+    }
+
+    .home-desktop {
+        display:none;
     }
 }    
 
