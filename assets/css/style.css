@@ -271,7 +271,7 @@ label {
 /* Footer - Sign Up */
 
 .footer-section-signup {
-    position:absolute;
+    position:fixed;
     text-align:center;
     bottom:0px;
 }
