@@ -216,7 +216,7 @@ iframe {
 
 .newsletter-title h1 {
     font-weight: 400;
-    font-size: 48px;
+    font-size: 42px;
 }
 
 .home-desktop a {
@@ -243,8 +243,8 @@ iframe {
 }
 
 .form-section {
-    text-align:center;
     margin-top:100px;
+    text-align:center;
 }
 
 label {
@@ -254,6 +254,20 @@ label {
 
 .home-mobile {
     display:none;
+}
+
+.btn {
+    background-color:white;
+    color:black;
+}
+
+.btn:hover {
+    background-color:green;
+    color:white;
+}
+
+.form-item {
+    margin-top:40px;
 }
 
 /* Footer - Main */
@@ -273,10 +287,10 @@ label {
 .footer-section-signup {
     position:relative;
     text-align:center;
-    top:250px;
+    top:160px;
 }
 
-/* Media Queries */
+/* Media Queries - Width */
 
 @media only screen and (max-width:768px) {
     .newsletter-homepage-desktop {
@@ -353,6 +367,7 @@ label {
         text-shadow: 2px 2px black;
         font-size:24px;
         text-align:center;
+        padding-top:40px;
     }
 }    
 
@@ -385,6 +400,8 @@ label {
         margin-left: 30px;
     }
 }
+
+/* Media Queries - Height */
 
 @media screen and (min-height:1400px) {
      .band-bio-section {
@@ -437,4 +454,28 @@ label {
      .shows-section {
          top:1100px;
      }
+}
+
+@media screen and (max-height:700px) {
+    .band-bio-section {
+        top:550px;
+    }
+
+    .music-section {
+        top:650px;
+     }
+
+     .shows-section {
+        top:750px;
+     }
+
+     .footer-section {
+         top:850px;
+     }
+}
+
+@media screen and (max-height:400px) {
+    .nav-bar {
+        top:200px;
+    }
 }
