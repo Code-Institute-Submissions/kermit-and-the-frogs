@@ -444,15 +444,19 @@ label {
 @media screen and (min-height:850px) and (max-height:1024px) {
      .band-bio-section {
         position: relative;
-        top:900px;
+        top:1000px;
      }
      
      .music-section {
-         top: 1000px;
+         top: 1100px;
      }
 
      .shows-section {
-         top:1100px;
+         top:1200px;
+     }
+
+     .footer-section {
+         top:1300px;
      }
 }
 
@@ -478,4 +482,20 @@ label {
     .nav-bar {
         top:200px;
     }
+
+    .band-bio-section {
+        top:450px;
+    }
+
+    .music-section {
+        top:550px;
+     }
+
+     .shows-section {
+        top:650px;
+     }
+
+     .footer-section {
+         top:750px;
+     }
 }
