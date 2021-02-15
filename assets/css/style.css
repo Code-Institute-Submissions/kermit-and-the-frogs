@@ -271,9 +271,9 @@ label {
 /* Footer - Sign Up */
 
 .footer-section-signup {
-    position:fixed;
+    position:relative;
     text-align:center;
-    bottom:0px;
+    top:250px;
 }
 
 /* Media Queries */
