@@ -34,6 +34,7 @@
 .page-title h1 {
     font-weight: 400;
     font-size: 48px;
+    text-shadow: 2px 2px black;
 }
 
 .social-link {
@@ -218,6 +219,7 @@ iframe {
     font-weight: 400;
     font-size: 36px;
     text-align:center;
+    text-shadow: 2px 2px black;
 }
 
 .home-desktop a {
@@ -298,6 +300,13 @@ form h4 {
 
 /* Media Queries - Width */
 
+@media only screen and (width:768px) {
+    .newsletter-title {
+        width:100%;
+        margin-left:33%;
+    }
+}
+
 @media only screen and (max-width:768px) {
     .newsletter-homepage-desktop {
         display:none;
@@ -347,10 +356,6 @@ form h4 {
         top:1125px;
     }
 
-    .home-desktop {
-        display:none;
-    }
-
     .show-time {
         padding-right:0px;
     }
@@ -366,8 +371,15 @@ form h4 {
     .newsletter-title h1 {
         font-weight: 400;
         font-size: 28px;
-        text-align:center;
         text-shadow: 2px 2px black;
+    }
+
+    .checkbox-text {
+        font-size:16px;
+    }
+
+    .placeholder-div {
+        display:none;
     }
 
     .home-mobile {
@@ -378,11 +390,7 @@ form h4 {
         padding-top:40px;
     }
 
-    .checkbox-text {
-        font-size:16px;
-    }
-
-    .placeholder-div {
+    .home-desktop {
         display:none;
     }
 }    
@@ -409,7 +417,7 @@ form h4 {
     .band-bio-section {
         top:750px;
     }
-}    
+}
 
 @media only screen and (max-width:575px) {
     .social-links-home-page {
