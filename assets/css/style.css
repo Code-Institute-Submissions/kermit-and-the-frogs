@@ -367,6 +367,7 @@ form h4 {
         font-weight: 400;
         font-size: 28px;
         text-align:center;
+        text-shadow: 2px 2px black;
     }
 
     .home-mobile {
