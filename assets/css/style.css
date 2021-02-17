@@ -18,7 +18,7 @@
 
 body {
     color:white;
-    text-shadow:2px 2px 3px #000000;
+    text-shadow:-1px 0 2px black, 0 1px 2px black, 1px 0 2px black, 0 -1px 2px black;;
 }
 
 .pangolin {
@@ -438,6 +438,14 @@ form h4 {
      .footer-section {
          top:2100px;
      }
+
+     .form-section {
+         margin-top:300px;
+     }
+
+     .footer-section-signup {
+         top:500px;
+     }
 }
 
 @media screen and (min-height:1025px) and (max-height:1400px) {
@@ -456,6 +464,14 @@ form h4 {
 
      .footer-section {
          top:1800px;
+     }
+
+     .form-section {
+         margin-top:250px;
+     }
+
+     .footer-section-signup {
+         top:500px;
      }
 }
 
@@ -476,23 +492,31 @@ form h4 {
      .footer-section {
          top:1300px;
      }
+
+     .form-section {
+         margin-top:150px;
+     }
+
+     .footer-section-signup {
+         top:290px;
+     }
 }
 
 @media screen and (max-height:700px) {
     .band-bio-section {
-        top:550px;
+        top:650px;
     }
 
     .music-section {
-        top:650px;
-     }
-
-     .shows-section {
         top:750px;
      }
 
+     .shows-section {
+        top:850px;
+     }
+
      .footer-section {
-         top:850px;
+         top:950px;
      }
 }
 
