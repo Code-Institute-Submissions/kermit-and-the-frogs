@@ -46,11 +46,12 @@ Here are some links to the wireframes that I drew up during the design process:
 
 ## Features
 
-**Languages Used**
 * Responsive on all device sizes.
 * Interactive elements.
 
 ## Technologies Used
+
+**Languages Used**
 
 * HTML5
 * CSS3
@@ -82,6 +83,36 @@ Here are some links to the wireframes that I drew up during the design process:
     * Balsamiq was used to create the wireframes during the design process.            
 
 ## Testing
+
+I used the W3C Markup Validator and W3C CSS Validator Services to validate every page of the project and ensure there were no syntax errors in the project.
+
+[W3C Markup Validator](https://validator.w3.org/)
+
+[W3C CSS Validator](https://jigsaw.w3.org/)
+
+### Testing User Stories from UX Section
+
+* Fan of the Band
+    * As a fan of Kermit and the Frogs, I want to be able to access their music, and social links all in one place.
+    * As a fan of Kermit and the Frogs, I want to be able to get updates as to where they are playing next.
+    * As a fan of Kermit and the Frogs, I'd like to be able to learn about the members, so a bio for each member would be nice.
+
+* Member of the Band
+    * As a member of the band, I want the fans to be able to have everything they need in one place, like social links and music.
+    * As a member of the band, I would like fans to be able to sign up for our newsletter so they can keep up with our latest news and showtimes.
+    * As a member of the band, I want people to be able to have people learn more about us, so a section that has a little about us would be nice.
+
+* Creator of the Site
+    * As the creator of the site, I want the people who use this site to find it both visually appealing and resourceful.
+    * As the creator of the site, I want users to be able to feel connected to the band, so bios and social links are important.
+    * As the creator of the site, I want users to want to return to the site to get updates on the band and when they are playing next.
+
+### Further Testing
+
+### Known Bugs
+
+* On mobile devices, the hero image will resize when the url bar disappears or reappears.
+    * There may be a slight white gap, but it will resize to compensate.
 
 ## Deployment
 
