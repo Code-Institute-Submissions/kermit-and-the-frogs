@@ -122,6 +122,8 @@ I used the W3C Markup Validator and W3C CSS Validator Services to validate every
 ### Further Testing
 
 * The site was tested on a variety of devices from desktop to mobile to tablet. Other devices were simulated through Chrome devtools.
+* Lighthouse was used to test the 3 pages of this site. 
+    * No category was lower than 85 for any test run.
 * Browsers used to test include Chrome, Edge, Safari, and Samsung Internet.
 * All links were properly tested and operational.
 * Friends and family were asked to test on personal devices and point out any visible flaws or errors.
