@@ -94,20 +94,37 @@ I used the W3C Markup Validator and W3C CSS Validator Services to validate every
 
 * Fan of the Band
     * As a fan of Kermit and the Frogs, I want to be able to access their music, and social links all in one place.
+        * Upon entering the site, users ar greeted with all applicable social links at the top of the page, as well as a link in the navigation bar to a sample of their music.
     * As a fan of Kermit and the Frogs, I want to be able to get updates as to where they are playing next.
+        * Upcoming shows are accessible on the homepage and users can get there more quickly by selecting the navigation bar item.
     * As a fan of Kermit and the Frogs, I'd like to be able to learn about the members, so a bio for each member would be nice.
+        * A brief bio section is included for eah member of the band so that fans can feel more connected to their favorite band.
 
 * Member of the Band
     * As a member of the band, I want the fans to be able to have everything they need in one place, like social links and music.
+        * The homepage greets the user with everything that they need all in one place.
+        * The navigation bar takes them everywhere they need to be on the page quickly, and social links are found at the top.
     * As a member of the band, I would like fans to be able to sign up for our newsletter so they can keep up with our latest news and showtimes.
+        * A newsletter signup is included at the top of the page in desktop, and in the navigation bar in mobile. Users can sign up quickly with just their name and email.
     * As a member of the band, I want people to be able to have people learn more about us, so a section that has a little about us would be nice.
+        * A bio section for each member of the band is provided to allow the band members to connect with their fans.
 
 * Creator of the Site
     * As the creator of the site, I want the people who use this site to find it both visually appealing and resourceful.
+        * The hero image captivates the user upon site entry.
+        * Navigation links, and social media outlets are at quick disposal to the user.
     * As the creator of the site, I want users to be able to feel connected to the band, so bios and social links are important.
+        * Bios and social media links are readily available on the home page for the user.
     * As the creator of the site, I want users to want to return to the site to get updates on the band and when they are playing next.
+        * Shows are updated as the band is playing, so fans are never without the latest news.
+        * Users can also sign up for the newsletter and get updates that way.
 
 ### Further Testing
+
+* The site was tested on a variety of devices from desktop to mobile to tablet. Other devices were simulated through Chrome devtools.
+* Browsers used to test include Chrome, Edge, Safari, and Samsung Internet.
+* All links were properly tested and operational.
+* Friends and family were asked to test on personal devices and point out any visible flaws or errors.
 
 ### Known Bugs
 
