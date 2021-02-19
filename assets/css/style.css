@@ -515,11 +515,11 @@ form h4 {
      }
 
      .footer-section-signup {
-         top:500px;
+         bottom:100%;
      }
 
      .footer-section-thank-you {
-        top:700px;
+        bottom:100%;
      }   
 }
 
@@ -554,7 +554,7 @@ form h4 {
      }
 
      .footer-section-thank-you {
-        top:475px;
+        bottom:100%;
      }   
 }
 
