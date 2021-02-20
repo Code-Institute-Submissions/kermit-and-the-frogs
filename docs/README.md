@@ -169,15 +169,24 @@ If you'd like to have a copy on your local machine, follow the steps below:
 
 #### Media
 
-Pixabay
-Wikipedia
+* The background image came from this [Pixabay](https://pixabay.com/photos/audience-backlit-band-battle-1868137/) post.
+
+* The band member images came from the following Wikipedia articles about [Kermit](https://en.wikipedia.org/wiki/Kermit_the_Frog), [Miss Piggy](https://en.wikipedia.org/wiki/Miss_Piggy), and [Animal](https://en.wikipedia.org/wiki/Animal_(Muppet)).
 
 #### Characters
 
-Disney
+* Credit to Jim Henson as the creator of the Muppets.
+
+#### Content
+
+* All content was written by the developer.
 
 #### Code
 
-https://css-tricks.com/ - Static Background Image
-https://www.w3schools.com/ - Text Shadow
-https://stackoverflow.com/ - Fix Bug for Fixed Background iOS
+* Some of the code for the static background image came from this [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/) post.
+
+* My mentor pointed me in the direction of text shadow which came from this [W3C Schools](https://www.w3schools.com/cssref/css3_pr_text-shadow.asp) post.
+
+* Tutor support referenced me to an excerpt from Stack Overflow which had me use an empty div for my background image instead of targeting the body itself.
+
+* [Bootstrap 4](https://getbootstrap.com/docs/4.4/getting-started/introduction/) was used throughout the project mainly to make site responsive using the Bootstrap Grid System. 
