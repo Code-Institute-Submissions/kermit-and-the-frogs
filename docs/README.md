@@ -191,7 +191,9 @@ If you'd like to have a copy on your local machine, follow the steps below:
 
 * [Bootstrap 4](https://getbootstrap.com/docs/4.4/getting-started/introduction/) was used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
-* [Font Awesome](https://fontawesome.com/) was used to make the icons in the navigation bar and the clickable social icons. 
+* [Font Awesome](https://fontawesome.com/) was used to make the icons in the navigation bar and the clickable social icons.
+
+* Fixed the favicon.ico error by using this [Stack Overflow](https://stackoverflow.com/questions/1321878/how-to-prevent-favicon-ico-requests) post.
 
 #### Acknowledgements
 
