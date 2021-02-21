@@ -194,6 +194,8 @@ If you'd like to have a copy on your local machine, follow the steps below:
 
 * Fixed the favicon.ico error by using this [Stack Overflow](https://stackoverflow.com/questions/1321878/how-to-prevent-favicon-ico-requests) post.
 
+* Credit to Robert Maefs who helped me fix the white space showing when I scroll on mobile by suggesting a ```background-color:black;``` be added to the body portion of my CSS.
+
 #### Acknowledgements
 
 * My mentor for continuous and helpful support/design suggestions.
