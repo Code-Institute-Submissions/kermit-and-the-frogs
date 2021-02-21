@@ -132,6 +132,8 @@ I used the W3C Markup Validator and W3C CSS Validator Services to validate every
 
 * On mobile devices, the hero image will resize when the url bar disappears or reappears.
     * There may be a slight white gap, but it will resize to compensate.
+* Zooming out past 50% causes the navigation bar to drop beneath the other content on the page due to absolute and bottom positioning.
+    * Realistically, the end user won't be using such a small size anyways as one would struggle to read the content.    
 
 ## Deployment
 
