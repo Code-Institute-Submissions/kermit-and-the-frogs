@@ -131,7 +131,6 @@ I used the W3C Markup Validator and W3C CSS Validator Services to validate every
 ### Known Bugs
 
 * On mobile devices, the hero image will resize when the url bar disappears or reappears.
-    * There may be a slight white gap, but it will resize to compensate.
     
 ## Deployment
 
