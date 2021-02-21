@@ -191,6 +191,8 @@ If you'd like to have a copy on your local machine, follow the steps below:
 
 * [Bootstrap 4](https://getbootstrap.com/docs/4.4/getting-started/introduction/) was used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
+* [Font Awesome](https://fontawesome.com/) was used to make the icons in the navigation bar and the clickable social icons. 
+
 #### Acknowledgements
 
 * My mentor for continuous and helpful support/design suggestions.
