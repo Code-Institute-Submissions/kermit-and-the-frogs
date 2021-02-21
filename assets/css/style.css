@@ -18,6 +18,7 @@
 /* Universal Site Settings */
 
 body {
+    background-color:black;
     color:white;
     /* Text Shadow Property Came From My Mentor --- Link in Credits Section of ReadMe File*/ 
     text-shadow:-1px 0 2px black, 0 1px 2px black, 1px 0 2px black, 0 -1px 2px black;;
