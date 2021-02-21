@@ -453,6 +453,13 @@ form h4 {
 
 /* Media Queries - Height */
 
+@media screen and (min-height:1725px) {
+    .nav-bar {
+        position:relative;
+        top:1400px;
+    }
+}
+
 @media screen and (min-height:1400px) {
      .band-bio-section {
         position: relative;
