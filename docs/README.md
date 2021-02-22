@@ -172,6 +172,8 @@ If you'd like to have a copy on your local machine, follow the steps below:
 
 * The band member images came from the following Wikipedia articles about [Kermit](https://en.wikipedia.org/wiki/Kermit_the_Frog), [Miss Piggy](https://en.wikipedia.org/wiki/Miss_Piggy), and [Animal](https://en.wikipedia.org/wiki/Animal_(Muppet)).
 
+* Favicon image came from the following [Reddit](https://www.reddit.com/r/Muppets/comments/f9rly9/muppet_reddit_needs_a_profile_picture_d/) post.
+
 #### Characters
 
 * Credit to Jim Henson as the creator of the Muppets.
@@ -195,6 +197,8 @@ If you'd like to have a copy on your local machine, follow the steps below:
 * Fixed the favicon.ico error by using this [Stack Overflow](https://stackoverflow.com/questions/1321878/how-to-prevent-favicon-ico-requests) post.
 
 * Credit to Robert Maefs who helped me fix the white space showing when I scroll on mobile by suggesting a ```background-color:black;``` be added to the body portion of my CSS.
+
+* Code for favicon came from this [Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-add-a-favicon-to-your-website-with-html) post.
 
 #### Acknowledgements
 
