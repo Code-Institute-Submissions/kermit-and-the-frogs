@@ -184,17 +184,15 @@ If you'd like to have a copy on your local machine, follow the steps below:
 
 #### Code
 
+* [Bootstrap 4](https://getbootstrap.com/docs/4.4/getting-started/introduction/) was used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+
+* [Font Awesome](https://fontawesome.com/) was used to make the icons in the navigation bar and the clickable social icons.
+
 * Some of the code for the static background image came from this [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/) post.
 
 * My mentor pointed me in the direction of text shadow which came from this [W3C Schools](https://www.w3schools.com/cssref/css3_pr_text-shadow.asp) post.
 
 * Tutor support referenced me to an excerpt from Stack Overflow which had me use an empty div for my background image instead of targeting the body itself.
-
-* [Bootstrap 4](https://getbootstrap.com/docs/4.4/getting-started/introduction/) was used throughout the project mainly to make site responsive using the Bootstrap Grid System.
-
-* [Font Awesome](https://fontawesome.com/) was used to make the icons in the navigation bar and the clickable social icons.
-
-* Fixed the favicon.ico error by using this [Stack Overflow](https://stackoverflow.com/questions/1321878/how-to-prevent-favicon-ico-requests) post.
 
 * Credit to Robert Maefs who helped me fix the white space showing when I scroll on mobile by suggesting a ```background-color:black;``` be added to the body portion of my CSS.
 
