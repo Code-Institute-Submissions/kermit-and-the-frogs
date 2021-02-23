@@ -1,8 +1,8 @@
 # Kermit and the Frogs
 
-Kermit and the Frogs have been a worldwide sensation ever since the release of their album 'Down on the Street' earlier this year. Their universal style and ethnic blends have created an unprecendented demand for their music, as age groups all over the world are clamoring for content. Thus, this project was born.
+Kermit and the Frogs have been a worldwide sensation ever since the release of their album 'Down on the Street' earlier this year. Their universal style and ethnic blends have created an unprecedented demand for their music, as age groups all over the world are clamoring for content. Thus, this project was born.
 
-People from all over world need somewhere to go to easily access the heralded music of Kermit and the Frogs, and this site does just that. It's a go to hub for all of their social links, newsletter signup, updates on shows, music samples, and even member bios so people can learn more about their favorite band.
+People from all over the world need somewhere to go to easily access the heralded music of Kermit and the Frogs, and this site does just that. It's a go-to hub for all of their social links, newsletter signup, updates on shows, music samples, and even member bios so people can learn more about their favorite band.
 
 [View the live project here!](https://stonemasons4106.github.io/kermit-and-the-frogs/)
 
@@ -16,7 +16,7 @@ I appreciate the site's uniform design, fixed background image, one page holds e
 
 Design Features Include:
     
-* Pangolin font, which I find to mimic chalk on a chalkboard. It's clear, and appeals to a younger auidence.
+* Pangolin font, which I find to mimic chalk on a chalkboard. It's clear, and appeals to a younger audience.
 * Fixed striking hero image which provides contrast and visual appeal.
 
 Additionally, I talked to both types of users for the site and here's what I found:
@@ -77,7 +77,7 @@ Here are some links to the wireframes that I drew up during the design process:
     * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
 7. [GitHub](https://github.com/):
-    * GitHub is used to store the projects code after being pushed from Git.
+    * GitHub is used to store the project's code after being pushed from Git.
 
 8. [Balsamiq](https://balsamiq.com/):
     * Balsamiq was used to create the wireframes during the design process.            
@@ -94,25 +94,25 @@ I used the W3C Markup Validator and W3C CSS Validator Services to validate every
 
 * Fan of the Band
     * As a fan of Kermit and the Frogs, I want to be able to access their music, and social links all in one place.
-        * Upon entering the site, users ar greeted with all applicable social links at the top of the page, as well as a link in the navigation bar to a sample of their music.
+        * Upon entering the site, users are greeted with all applicable social links at the top of the page, as well as a link in the navigation bar to a sample of their music.
     * As a fan of Kermit and the Frogs, I want to be able to get updates as to where they are playing next.
         * Upcoming shows are accessible on the homepage and users can get there more quickly by selecting the navigation bar item.
     * As a fan of Kermit and the Frogs, I'd like to be able to learn about the members, so a bio for each member would be nice.
-        * A brief bio section is included for eah member of the band so that fans can feel more connected to their favorite band.
+        * A brief bio section is included for each member of the band so that fans can feel more connected to their favorite band.
 
 * Member of the Band
     * As a member of the band, I want the fans to be able to have everything they need in one place, like social links and music.
         * The homepage greets the user with everything that they need all in one place.
         * The navigation bar takes them everywhere they need to be on the page quickly, and social links are found at the top.
     * As a member of the band, I would like fans to be able to sign up for our newsletter so they can keep up with our latest news and showtimes.
-        * A newsletter signup is included at the top of the page in desktop, and in the navigation bar in mobile. Users can sign up quickly with just their name and email.
+        * Newsletter signup is included at the top of the page in the desktop, and in the navigation bar in the mobile. Users can sign up quickly with just their name and email.
     * As a member of the band, I want people to be able to have people learn more about us, so a section that has a little about us would be nice.
         * A bio section for each member of the band is provided to allow the band members to connect with their fans.
 
 * Creator of the Site
     * As the creator of the site, I want the people who use this site to find it both visually appealing and resourceful.
         * The hero image captivates the user upon site entry.
-        * Navigation links, and social media outlets are at quick disposal to the user.
+        * Navigation links and social media outlets are at quick disposal to the user.
     * As the creator of the site, I want users to be able to feel connected to the band, so bios and social links are important.
         * Bios and social media links are readily available on the home page for the user.
     * As the creator of the site, I want users to want to return to the site to get updates on the band and when they are playing next.
@@ -121,7 +121,7 @@ I used the W3C Markup Validator and W3C CSS Validator Services to validate every
 
 ### Further Testing
 
-* The site was tested on a variety of devices from desktop to mobile to tablet. Other devices were simulated through Chrome devtools.
+* The site was tested on a variety of devices from desktop to mobile to tablet. Other devices were simulated through Chrome dev tools.
 * Lighthouse was used to test the 3 pages of this site. 
     * No category was lower than 85 for any test run.
 * Browsers used to test include Chrome, Edge, Safari, and Samsung Internet.
@@ -130,7 +130,7 @@ I used the W3C Markup Validator and W3C CSS Validator Services to validate every
 
 ### Known Bugs
 
-* On mobile devices, the hero image will resize when the url bar disappears or reappears.
+* On mobile devices, the hero image will resize when the URL bar disappears or reappears.
     
 ## Deployment
 
@@ -172,7 +172,7 @@ If you'd like to have a copy on your local machine, follow the steps below:
 
 * The band member images came from the following Wikipedia articles about [Kermit](https://en.wikipedia.org/wiki/Kermit_the_Frog), [Miss Piggy](https://en.wikipedia.org/wiki/Miss_Piggy), and [Animal](https://en.wikipedia.org/wiki/Animal_(Muppet)).
 
-* Favicon image came from the following [Reddit](https://www.reddit.com/r/Muppets/comments/f9rly9/muppet_reddit_needs_a_profile_picture_d/) post.
+* The Favicon image came from the following [Reddit](https://www.reddit.com/r/Muppets/comments/f9rly9/muppet_reddit_needs_a_profile_picture_d/) post.
 
 #### Characters
 
@@ -198,6 +198,6 @@ If you'd like to have a copy on your local machine, follow the steps below:
 
 * Code for favicon came from this [Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-add-a-favicon-to-your-website-with-html) post.
 
-#### Acknowledgements
+#### Acknowledgments
 
 * My mentor for continuous and helpful support/design suggestions.
